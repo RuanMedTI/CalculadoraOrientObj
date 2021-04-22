@@ -49,7 +49,10 @@ namespace CalculadoraOrientObj.ConsoleApp
 
             public void visualizarContas()
             {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("---------------------------");
             Console.WriteLine(historico);
-            }
+            Console.WriteLine("---------------------------");
+        }
     }
 }
